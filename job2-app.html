@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFaisel Careers - Home</title>
+    <link rel="stylesheet" href="job2-app.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#home" class="logo" onclick="showPage('home')">
+                <div class="logo-icon">TC</div>
+                TechCorp
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active" onclick="showPage('home')">Home</a></li>
+                    <li><a href="#jobs" class="nav-link" onclick="showPage('jobs')">Job Listings</a></li>
+                    <li><a href="#apply" class="nav-link" onclick="showPage('apply')">Submit Application</a></li>
+                    <li><a href="#contact" class="nav-link" onclick="showPage('contact')">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page-nav active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Build Your Career With TechFaisel</h1>
+                <p>Join our innovative team and shape the future of technology. We're looking for talented individuals who are passionate about making a difference.</p>
+                <div class="cta-buttons">
+                    <a href="#jobs" class="btn btn-primary" onclick="showPage('jobs')">Browse Job Listings</a>
+                    <a href="#apply" class="btn btn-secondary" onclick="showPage('apply')">Submit Application</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <div class="container">
+            <h2 class="section-title">Why Join TechFaisel?</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Innovation First</h3>
+                    <p>Work on cutting-edge projects that push the boundaries of technology and make a real impact on millions of users worldwide.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Growth Opportunities</h3>
+                    <p>Continuous learning and development programs designed to help you advance your career and reach your full potential.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Collaborative Culture</h3>
+                    <p>Join a diverse, inclusive team where your ideas are valued and collaboration drives our success.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚖️</div>
+                    <h3>Work-Life Balance</h3>
+                    <p>Flexible working hours, remote options, and generous benefits that support your personal and professional life.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3>Competitive Benefits</h3>
+                    <p>Comprehensive health coverage, retirement plans, stock options, and perks that show we value your contribution.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global Impact</h3>
+                    <p>Be part of a company that's making a positive difference in communities around the world.</p>
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="testimonials">
+                <h2 class="section-title">What Our Team Says</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial">
+                        <p>"TechCorp has been an incredible place to grow my career. The supportive environment and challenging projects keep me motivated every day."</p>
+                        <div class="testimonial-author">Sarah Johnson</div>
+                        <div class="testimonial-role">Senior Software Engineer</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"The culture here is amazing. Everyone is genuinely invested in each other's success, and the work we do truly matters."</p>
+                        <div class="testimonial-author">Michael Chen</div>
+                        <div class="testimonial-role">Product Manager</div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"I've learned more in my first year here than I did in my previous three jobs combined. The opportunities for growth are endless."</p>
+                        <div class="testimonial-author">Emily Rodriguez</div>
+                        <div class="testimonial-role">UX Designer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Job Listings Page -->
+    <div id="jobs" class="page-nav">
+        <div class="container">
+            <h1 class="section-title">Current Job Openings</h1>
+            <div class="job-grid">
+                <div class="job-card">
+                    <div class="job-info">
+                        <h2 class="job-title">Senior Software Engineer</h2>
+                        <div class="job-meta">
+                            <span class="job-location">📍 San Francisco, CA</span>
+                            <span class="job-type">💼 Full-time</span>
+                        </div>
+                        <p class="job-description">We're seeking an experienced software engineer to join our platform team. You'll work on scalable systems that power our core products.</p>
+                    </div>
+                    <a href="#apply" class="btn btn-primary" onclick="showPage('apply')">Apply Now</a>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-info">
+                        <h2 class="job-title">Product Designer</h2>
+                        <div class="job-meta">
+                            <span class="job-location">📍 New York, NY</span>
+                            <span class="job-type">💼 Full-time</span>
+                        </div>
+                        <p class="job-description">Join our design team to create beautiful, intuitive user experiences. You'll work closely with engineers and product managers to bring ideas to life.</p>
+                    </div>
+                    <a href="#apply" class="btn btn-primary" onclick="showPage('apply')">Apply Now</a>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-info">
+                        <h2 class="job-title">Marketing Manager</h2>
+                        <div class="job-meta">
+                            <span class="job-location">📍 Austin, TX</span>
+                            <span class="job-type">💼 Full-time</span>
+                        </div>
+                        <p class="job-description">Lead our marketing initiatives and help grow our brand. You'll develop strategies, manage campaigns, and analyze performance metrics.</p>
+                    </div>
+                    <a href="#apply" class="btn btn-primary" onclick="showPage('apply')">Apply Now</a>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-info">
+                        <h2 class="job-title">DevOps Engineer</h2>
+                        <div class="job-meta">
+                            <span class="job-location">📍 Seattle, WA</span>
+                            <span class="job-type">💼 Full-time</span>
+                        </div>
+                        <p class="job-description">Build and maintain our infrastructure. You'll ensure our systems are reliable, scalable, and secure while implementing best practices.</p>
+                    </div>
+                    <a href="#apply" class="btn btn-primary" onclick="showPage('apply')">Apply Now</a>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-info">
+                        <h2 class="job-title">Data Scientist</h2>
+                        <div class="job-meta">
+                            <span class="job-location">📍 Boston, MA</span>
+                            <span class="job-type">💼 Full-time</span>
+                        </div>
+                        <p class="job-description">Apply advanced analytics and machine learning to solve complex business problems. You'll work with large datasets to derive actionable insights.</p>
+                    </div>
+                    <a href="#apply" class="btn btn-primary" onclick="showPage('apply')">Apply Now</a>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-info">
+                        <h2 class="job-title">Customer Success Manager</h2>
+                        <div class="job-meta">
+                            <span class="job-location">📍 Remote</span>
+                            <span class="job-type">💼 Full-time</span>
+                        </div>
+                        <p class="job-description">Help our customers succeed by providing exceptional support and building strong relationships. You'll be the voice of the customer internally.</p>
+                    </div>
+                    <a href="#apply" class="btn btn-primary" onclick="showPage('apply')">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submit Application Page -->
+    <div id="apply" class="page-nav">
+        <div class="container">
+            <h1 class="section-title">Submit Your Application</h1>
+            <div class="form-container">
+                <div class="success-message" id="successMessage">
+                    ✓ Application submitted successfully! We'll review your application and get back to you soon.
+                </div>
+                <form id="applicationForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="position">Desired Position *</label>
+                        <select id="position" name="position" required>
+                            <option value="">Select a position</option>
+                            <option value="senior-software-engineer">Senior Software Engineer</option>
+                            <option value="product-designer">Product Designer</option>
+                            <option value="marketing-manager">Marketing Manager</option>
+                            <option value="devops-engineer">DevOps Engineer</option>
+                            <option value="data-scientist">Data Scientist</option>
+                            <option value="customer-success-manager">Customer Success Manager</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="resume">Resume *</label>
+                        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                        <p class="form-note">Accepted formats: PDF, DOC, DOCX (Max 10MB)</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="coverLetter">Cover Letter *</label>
+                        <textarea id="coverLetter" name="coverLetter" placeholder="Tell us why you'd be a great fit for this position..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us Page -->
+    <div id="contact" class="page-nav">
+        <div class="container">
+            <h1 class="section-title">Contact Us</h1>
+            
+            <div class="contact-info">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>careers@tefaisel.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Office</h3>
+                            <p>123 TechCustom Street, San Francisco, CA 94103</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="success-message" id="contactSuccessMessage">
+                    ✓ Message sent successfully! We'll get back to you within 24 hours.
+                </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName">Name *</label>
+                        <input type="text" id="contactName" name="contactName" placeholder="Your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail">Email *</label>
+                        <input type="email" id="contactEmail" name="contactEmail" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About TechFaisel</h3>
+                <p>Leading the future of technology with innovative solutions and a passionate team dedicated to making a difference.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">f</a>
+                    <a href="#" class="social-link">in</a>
+                    <a href="#" class="social-link">tw</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home" onclick="showPage('home')">Home</a></li>
+                    <li><a href="#jobs" onclick="showPage('jobs')">Job Listings</a></li>
+                    <li><a href="#apply" onclick="showPage('apply')">Submit Application</a></li>
+                    <li><a href="#contact" onclick="showPage('contact')">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Equal Opportunity</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>123 TechCustom Street</li>
+                    <li>San Francisco, CA 94103</li>
+                    <li>careers@tecfaisel.com</li>
+                    <li>+1 (555) 123-4567</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechSFaisel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Page navigation
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page-nav');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update active nav link
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+
+        // Application form submission
+        document.getElementById('applicationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('successMessage').style.display = 'block';
+            this.reset();
+            setTimeout(() => {
+                document.getElementById('successMessage').style.display = 'none';
+            }, 5000);
+        });
+
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('contactSuccessMessage').style.display = 'block';
+            this.reset();
+            setTimeout(() => {
+                document.getElementById('contactSuccessMessage').style.display = 'none';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
